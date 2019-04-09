@@ -4,7 +4,7 @@ class TodoList extends Component {
     render() {
         return (
             <div>
-
+                this.props.todo.map(item => <p>item.name</p>
             </div>
         )
     }
